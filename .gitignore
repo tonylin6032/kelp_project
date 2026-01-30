@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.venv*/
+.env
+
+# OS
+.DS_Store
+
+# Data (do not commit)
+data/
+*.nc
+*.h5
+*.hdf5
+
+# Outputs
+*.csv
+*.parquet
+
+# Optional: keep specific small CSVs by whitelisting later if you want
