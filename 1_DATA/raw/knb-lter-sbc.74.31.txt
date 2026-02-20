@@ -1,0 +1,393 @@
+
+   
+      
+         uid=SBC,o=EDI,dc=ecoinformatics,dc=org
+         all
+      
+      
+         uid=lkui,o=EDI,dc=ecoinformatics,dc=org
+         all
+      
+      
+         public
+         read
+      
+   
+   
+      doi:10.6073/pasta/18874c2802c4defd4b331cac827676c5Kelp canopy area and biomass from Landsat
+      SBC LTER: Time series of quarterly NetCDF files of kelp biomass in the canopy from Landsat 5, 7 and 8, since 1984 (ongoing)
+      
+         Tom W Bell
+         			Woods Hole Oceanographic Institution 266 Woods Hole Road
+			Woods Hole, MA 02543  US
+         tbell@whoi.edu
+         https://orcid.org/0000-0002-0173-2866
+      
+      
+         Kyle C Cavanaugh
+         			Department of Geography University of California
+			Los Angeles, CA 90095  US
+         kcavanaugh@geog.ucla.edu
+         https://orcid.org/0000-0002-3313-0878
+      
+      
+         David A Siegel
+         			Earth Research Institute University of California
+			Santa Barbara, CA 93106-3060  US
+         805-893-4547
+         davesiegel@ucsb.edu
+         https://orcid.org/0000-0003-1674-3055
+      
+      
+         Santa Barbara Coastal LTER
+         			Marine Science Institute University of California
+			Santa Barbara, CA 93106  USA
+         sbclter@msi.ucsb.edu
+         publisher, curator
+      
+      2025-12-11
+      English
+      
+         
+            
+      This data file represents a time series of canopy area of giant
+      kelp, Macrocystis pyrifera, and bull kelp,
+      Nereocystis luetkeana, and canopy biomass of
+      giant kelp derived from Landsat 5 Thematic Mapper (TM), Landsat 7
+      Enhanced Thematic Mapper Plus (ETM+), Landsat 8 Operational Land
+      Imager (OLI), and Landsat 9 Operational Land Imager 2 satellite
+      imagery, along with relevant metadata. The kelp canopy is composed
+      of the portions of fronds and stipes floating on the surface of
+      the water. Canopy area (m) data are given for individual 30 x 30
+      meter pixels for all coastal areas of Baja California, Mexico,
+      California, Oregon, and the outer coast of Washington (including
+      offshore islands). Biomass data (wet weight, kg) are given for
+      individual 30 x 30 meter pixels in the coastal areas extending
+      from near Ano Nuevo, CA through the southern range limit in Baja
+      California (including offshore islands), representing the range
+      where giant kelp is the dominant canopy forming species.
+    
+            
+      Data were derived from the three Landsat sensors listed above.
+      Observations are made on a 16 day repeat cycle, for each
+      instrument, but the temporal coverage is irregular because of
+      cloud cover, instrument failure, and the mission length of each
+      sensor (TM: 1984 – 2011, ETM+: 1999 – present, OLI: 2013 –
+      present). Estimates of canopy area are derived from the fractional
+      cover of kelp canopy determined from satellite surface
+      reflectance. Estimates of kelp canopy biomass are derived from the
+      relationship between giant kelp fractional cover determined from
+      satellite surface reflectance and empirical measurements of giant
+      kelp canopy biomass in long-term SBC LTER study plots obtained
+      using SCUBA. The different Landsat sensors were calibrated to each
+      other using simulated Landsat data derived from hyperspectral
+      imagery. Missing data due to the ETM+ scan line corrector error
+      were filled using a synchrony-based gap filling method.
+    
+            
+      Data are organized into a single NetCDF file and contain the
+      quarterly area and biomass means for each Landsat pixel across the
+      three sensors. Relevant metadata such as number of Landsat
+      estimates from which the mean was derived, the number of estimates
+      from each sensor, standard error for each quarterly estimate,
+      spatial coordinates, and date are all included in the file. For
+      assistance with the data, please contact sbclter@msi.ucsb.edu.
+    
+         
+      
+      
+         populations
+         LTER Core Research Areas
+      
+      
+         biomass
+         canopy
+         LTER
+         populations
+         Santa Barbara Coastal
+         LTER Controlled Vocabulary v1
+      
+      
+         Kelp Forest
+         nearshore ocean
+         populations
+         remote sensing
+         SBC-LTER Controlled Vocabulary
+      
+      
+         Anacapa Island
+         San Clemente Island
+         San Miguel Island
+         San Nicolas Island
+         Santa Barbara Channel Islands
+         Santa Barbara County
+         Santa Barbara Island
+         Santa Catalina Island
+         Santa Cruz Island
+         Santa Rosa Island
+         Santa Barbara Coastal LTER Places
+      
+      
+         Biomass
+         Biomass Dynamics
+         Global Change Master Directory (GCMD) v6.0.0.0.0
+      
+      
+         Biomass
+         Knowledge Network for Biocomplexity
+      
+      
+         Biomass
+         NBII Biocomplexity
+      
+      
+         biomass
+         kelp biomass
+         Landsat 5
+         Landsat 7
+         Landsat 8
+         LTER
+         remote sensing
+         satellite
+         wet weight
+         none
+      
+      
+         
+    This data package is released under the Creative Commons License
+    Attribution 4.0 International (CC BY 4.0, see
+    https://creativecommons.org/licenses/by/4.0/). This license states
+    that consumers ("Data Users" herein) may distribute,
+    adapt, reuse, remix, and build upon this work, as long as they give
+    appropriate credit, provide a link to the license, and indicate if
+    changes were made. If redistributed, a Data User may not apply
+    additional restrictions or technological measures that prevent
+    access.
+  
+         
+    The Data User has an ethical obligation to cite the data source
+    appropriately in any publication or product that results from its
+    use, and notify the data contact or creator. Communication,
+    collaboration, or co-authorship (as appropriate) with the creators
+    of this data package is encouraged to prevent duplicate research or
+    publication. The Data User is urged to contact the authors of these
+    data if any questions about methodology or results occur. The Data
+    User should realize that these data may be actively used by others
+    for ongoing research and that coordination may be necessary to
+    prevent duplication or inappropriate use. The Data User should
+    realize that misinterpretation may occur if data are used outside of
+    the context of the original study. The Data User should be aware
+    that data are updated periodically and it is the responsibility of
+    the Data User to check for new versions of the data.
+  
+         
+    While substantial efforts are made to ensure the accuracy of data
+    and associated documentation, complete accuracy of data sets cannot
+    be guaranteed. This data package (with its components) is made
+    available “as is” and with no warranty of accuracy or fitness for
+    use. The creators of this data package and the repository where
+    these data were obtained shall not be liable for any damages
+    resulting from misinterpretation, use or misuse of the data package
+    or its components.
+  
+      
+      
+         
+            https://sbclter.msi.ucsb.edu/
+         
+      
+      https://doi.org/10.6073/pasta/18874c2802c4defd4b331cac827676c5
+         
+            West Coast: Coastal areas of Baja California, Mexico, California, Oregon, and the outer coast of Washington (including offshore islands)
+            
+               -124.77
+               -114.04
+               48.40
+               27.01
+            
+         
+         
+            
+               
+                  1984-03-23
+               
+               
+                  2025-09-30
+               
+            
+         
+      
+      
+         Santa Barbara Coastal LTER
+         			Marine Science Institute
+			University of California
+			Santa Barbara, California 93106-6150  United States
+         sbclter@msi.ucsb.edu
+         https://sbclter.msi.ucsb.edu/
+         https://ror.org/05hnkta08
+      
+      
+         Environmental Data Initiative
+         info@edirepository.org
+         https://edirepository.org
+         0330j0z60
+      
+      Environmental Data Initiative
+      
+         
+            
+               
+                  
+      Estimates of kelp canopy biomass are derived from the relationship
+      between satellite surface reflectance and empirical measurements
+      of kelp canopy biomass in long-term SBC LTER study plots obtained
+      using SCUBA. The different Landsat sensors were calibrated to each
+      other using simulated Landsat data derived from hyperspectral
+      imagery. Missing data due to the ETM+ scan line corrector error
+      were filled using a synchrony-based gap filling method.
+    
+                  
+      Some detailed method can refer to these articles:
+    
+                  
+      Cavanaugh KC, Siegel DA, Reed DC, Dennison PE (2011) Environmental
+      controls of giant-kelp biomass in the Santa Barbara Channel,
+      California. Mar Ecol Prog Ser 429:1-17.
+      https://doi.org/10.3354/meps09141
+    
+                  
+      Bell, T.W., Allen, J.A., Cavanaugh, K.C., Siegel, D.A. (2019)
+      Three decades of variability in California's giant kelp forests
+      from the Landsat satellites. Remote Sensing of Environment. 238,
+      110811. https://doi.org/10.1016/j.rse.2018.06.039
+    
+                  
+      Hamilton, S., Bell, T.W., Watson, J., Grorud-Colvert, K., Menge,
+      B. (2020) Remote Sensing: Generation of Long-Term Kelp Forest
+      Datasets for Evaluation of Impacts of Climatic Variation. Ecology,
+      101, e03031. https://doi.org/10.1002/ecy.3031
+    
+               
+            
+            
+               Giant Kelp and Bull Kelp Canopy Dynamics from the Landsat Satellite Sensors (TM, ETM+, OLI), Santa Barbara Coastal LTER 2020
+               
+                   Bell
+               
+               
+                  
+                     https://sbclter.msi.ucsb.edu/external/Reef/Protocols/kelp_biomass_landsat/SBC_LTER_Landsat_Protocol_2021.pdf
+                  
+               
+            
+         
+      
+      
+         Santa Barbara Coastal Long Term Ecological Research Project
+         
+            Dr. Robert Miller
+            			Marine Science Institute
+			University of California
+			Santa Barbara, California 93106-6150  United States
+            rjmiller@ucsb.edu
+            Principal Investigator
+         
+         
+            Dr. Dan Reed
+            			Marine Science Institute
+			University of California
+			Santa Barbara, California 93106-6150  United States
+            dan.reed@lifesci.ucsb.edu
+            Co-principal Investigator
+         
+         
+            Dr. Adrian Stier
+            			Department of Ecology, Evolution and Marine Biology
+			University of California
+			Santa Barbara, California 93106-9260  United States
+            adrian.stier@lifesci.ucsb.edu
+            Co-principal Investigator
+         
+         
+            Dr. Gretchen Hoffman
+            			Department of Ecology, Evolution and Marine Biology
+			University of California
+			Santa Barbara, California 93106-9620  United States
+            hofmann@lifesci.ucsb.edu
+            Co-principal Investigator
+         
+         
+            Dr. David Siegel
+            			Institute for Computational Earth System Science
+			University of California
+			Santa Barbara, California 93106-3060  United States
+            davey@icess.ucsb.edu
+            Co-principal Investigator
+         
+         
+            
+               The Santa Barbara Coastal LTER (SBC LTER) is an interdisciplinary research and education program
+established in April 2000 with the goal of developing a predictive understanding of how environmental
+drivers interact with terrestrial and oceanic processes to alter material flows and influence the ecology of
+coastal ecosystems. SBC LTER's principal study domain is the semi-arid coast and nearshore waters of
+the Santa Barbara Channel in southern California, and its diverse and productive marine forests of giant
+kelp (Macrocystis pyrifera) serve as the focal study ecosystem. Analyses of our long-term data have
+identified many of the environmental drivers and ecological processes underlying the production and
+community dynamics of kelp forests. The research proposed to address this question is integrated in a conceptual framework
+that focuses on the causes and ecological consequences of the dynamics of a relatively short-lived
+foundation species in a setting of long-term climate change and human use.
+            
+         
+         
+            SBC LTER is supported by the National Science Foundation.
+         
+         
+            National Science Foundation
+            https://dx.doi.org/10.13039/100000001
+            1831937
+            LTER: Environmental drivers and ecological consequences of kelp forest dynamics (SBV IV)
+            https://www.nsf.gov/awardsearch/showAward?AWD_ID=1831937
+         
+         
+            National Science Foundation
+            https://dx.doi.org/10.13039/100000001
+            1232779
+            LTER: Land/Ocean Interactions and the Dynamics of Kelp Forest Ecosystems (SBC III)
+            https://www.nsf.gov/awardsearch/showAward?AWD_ID=1232779
+         
+         
+            National Science Foundation
+            https://dx.doi.org/10.13039/100000001
+            0620276
+            LTER: Land/Ocean Interactions and the Dynamics of Kelp Forest Communities
+            https://www.nsf.gov/awardsearch/showAward?AWD_ID=0620276
+         
+         
+            National Science Foundation
+            https://dx.doi.org/10.13039/100000001
+            9982105
+            LTER: Land/Ocean Interactions and the Dynamics of Kelp Forest Ecosystems
+            https://www.nsf.gov/awardsearch/showAward?AWD_ID=9982105
+         
+      
+      
+         Satellite kelp biomass since 1984
+         Canopy area (m2) of bull kelp (Nereocystis luetkeana) and giant kelp (Macrocystis pyrifera) and wet biomass (kg) of giant kelp from Landsat 5, 7 and 8 imagery, along coastal areas of California, Oregon USA and Baja California and Baja California Sur, Mexico.
+         
+            LandsatKelpBiomass_2025_Q3_v2_withmetadata.nc
+            2585698082
+            3c0a5742e0c6f644958c207170a42ec5
+            
+               
+                  NetCDF
+               
+            
+            
+               
+                  https://pasta.lternet.edu/package/data/eml/knb-lter-sbc/74/31/c2bea785267fa434c40a22e2239bb337
+               
+            
+         
+         otherEntity
+      
+   

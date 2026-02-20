@@ -1,0 +1,5 @@
+Manifest file for knb-lter-sbc.74.31.zip created on Sun Jan 18 21:00:23 UTC 2026
+LandsatKelpBiomass_2025_Q3_v2_withmetadata.nc (2585698082 bytes)
+knb-lter-sbc.74.31.xml (25490 bytes)
+knb-lter-sbc.74.31.txt (14696 bytes)
+knb-lter-sbc.74.31.report.xml (22115 bytes)
