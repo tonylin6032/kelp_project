@@ -1,0 +1,8 @@
+ISEF-ready summary
+------------------------------------------------------------------------
+Held-out sites analysed: 19
+Weighted mean site AUC was 0.624 (bootstrap 95% CI 0.556 to 0.683).
+14 of 19 sites exceeded random prediction (sign-test p=0.0318).
+Central California showed higher held-out skill than the rest of the coast (weighted ΔAUC=0.149, permutation p=0.0287).
+The latitude-performance relationship was better explained by a weighted quadratic curve than by a straight line (ΔR²=0.318, permutation p=0.0070), with peak predicted skill near 37.21°N.
+Leave-one-site-out sensitivity kept the Central-California advantage positive in every omission (range 0.118 to 0.180), showing that the pattern was not driven by a single site.
